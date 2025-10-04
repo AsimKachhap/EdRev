@@ -5,7 +5,7 @@ const Navbar = () => {
   const MENU_ITEMS = ["Pograms", "Teachers", "About US"];
   return (
     <div className="  flex justify-between items-center rounded-lg backdrop-blur-sm    border w-full border-neutral-300 p-3">
-      <div className="w-20 h-20 relative ">
+      <div className="w-24 h-12 relative ">
         <Image
           src="/edrev_logo.png"
           fill={true}
