@@ -53,8 +53,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <h2>Section 2</h2>
+      <section className=" px-4 md:px-24 py-6 bg-amber-300 flex items-center justify-between  ">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.ingenium.tca1950"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" min-h-8 w-18 md:min-h-16 md:w-48 relative  "
+        >
+          <Image
+            src="/get_on_Google_play.png"
+            fill={true}
+            alt="Logo EdRev"
+            className=" object-contain"
+          />
+        </a>
+        <div className=" md:text-2xl text-sm ">
+          EdRev app is now available on Google Play.
+        </div>
       </section>
     </div>
   );
