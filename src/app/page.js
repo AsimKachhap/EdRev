@@ -6,9 +6,9 @@ export default function Home() {
     <div>
       <section className=" md:tracking-wider  md:leading-2 bg-indigo-100 ">
         <div className="  py-24 md:py-64   flex flex-col justify-center items-center text-center px-12 md:px-24">
-          <h1 className=" text-3xl md:text-6xl font-bold font-display tracking-tight bg-red-400 bg-clip-text">
+          <h2 className=" text-3xl md:text-6xl font-bold font-display tracking-tight bg-red-400 bg-clip-text">
             Smarter Learning, Happier Kids.
-          </h1>
+          </h2>
           <h2 className=" md:text-2xl text-black mt-1 text-center tracking-wide font-normal">
             Give your child the best of home{" "}
             <RoughNotation
@@ -47,9 +47,12 @@ export default function Home() {
             </RoughNotation>
           </h2>
 
-          <button className="bg-sky-500 px-12 p-4 rounded-full mt-3 text-neutral-50">
+          <a
+            href="#exploreEdRev"
+            className="bg-sky-500 px-12 p-4 rounded-full mt-3 text-neutral-50"
+          >
             Explore EdRev
-          </button>
+          </a>
         </div>
       </section>
 
@@ -71,7 +74,43 @@ export default function Home() {
           EdRev app is now available on Google Play.
         </div>
       </section>
-      <section>Section 3</section>
+      <section
+        id="exploreEdRev"
+        className="bg-white px-4 md:px-24 py-24 flex flex-col items-center justify-center"
+      >
+        <div>
+          <h2 className=" text-5xl text-blue-700 font-semibold">
+            EdRev-Revolution in India
+          </h2>
+
+          <h3 className="uppercase text-neutral-600 tracking-wider">
+            Revolution in India
+          </h3>
+
+          <div className="mt-2">
+            <p>
+              We all know education is crucial - but how it is delivered matters
+              even more. Traditional Offline and Online methods have their own
+              pros and cons. But what if your child gget the best of both world?{" "}
+            </p>
+            <h1>
+              Introducin EdRev - a hybrid learnin platform that combines the
+              comfort of home with interactivity of a real classroom. With smart
+              screens, microphones, and cameras, EdRev creates a virtual setup
+              that ensures real-time, two-wa interaction between teachers and
+              students -no more borin one way lectures.{" "}
+            </h1>
+          </div>
+          <div className="mt-8 md:mt-12">
+            <h4 className="uppercase  tracking-wide ">For Classes 1 to 10 </h4>
+
+            <h3 className="text-6xl  font-semibold bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-400 text-transparent bg-clip-text">
+              Only Assistance you will need in Your Academics.{" "}
+            </h3>
+          </div>
+        </div>
+        <div></div>
+      </section>
     </div>
   );
 }
