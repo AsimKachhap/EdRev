@@ -71,6 +71,7 @@ export default function Home() {
           EdRev app is now available on Google Play.
         </div>
       </section>
+      <section>Section 3</section>
     </div>
   );
 }
