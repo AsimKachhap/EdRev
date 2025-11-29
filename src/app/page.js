@@ -4,12 +4,12 @@ import { RoughNotation } from "react-rough-notation";
 export default function Home() {
   return (
     <div>
-      <section className=" md:tracking-wider  md:leading-2 ">
+      <section className=" md:tracking-wider  md:leading-2 bg-indigo-100 ">
         <div className="  py-24 md:py-64   flex flex-col justify-center items-center text-center px-12 md:px-24">
           <h1 className=" text-3xl md:text-6xl font-bold font-display tracking-tight bg-red-400 bg-clip-text">
             Smarter Learning, Happier Kids.
           </h1>
-          <h2 className=" md:text-2xl text-neutral-700 mt-1 text-center tracking-wide font-normal">
+          <h2 className=" md:text-2xl text-black mt-1 text-center tracking-wide font-normal">
             Give your child the best of home{" "}
             <RoughNotation
               type="highlight"
