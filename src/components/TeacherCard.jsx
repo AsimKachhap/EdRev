@@ -8,7 +8,7 @@ const TeacherCard = ({ teacher }) => {
           <div className=" w-24 md:w-48">
             <img src={teacher.photo} alt={teacher.name} />
           </div>
-          <h3 className="p-2 border border-slate-400 w-full text-center text font-semibold uppercase">
+          <h3 className="px-2 md:p-2 border border-slate-400 w-full text-center text font-semibold uppercase">
             {teacher.name}
           </h3>
         </div>
