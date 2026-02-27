@@ -127,7 +127,9 @@ export default function Home() {
         <div></div>
       </section>
       <section className="Teachers_Card bg-white">
-        <h4 className="text-2xl p-4 text-blue-500 ">Meet Our Teachers</h4>
+        <h4 className="text-3xl md:text-4xl p-4 text-blue-600 ">
+          Meet Your Teachers
+        </h4>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8  p-4 md:p-6 lg:p-8">
           {TEACHERS.map((teacher) => {
             return <TeacherCard teacher={teacher} key={teacher.name} />;
