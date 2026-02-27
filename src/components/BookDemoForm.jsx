@@ -11,7 +11,7 @@ const BookDemoForm = ({ onSuccess }) => {
     setResult("");
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "2119b873-d098-426a-b446-d054780c0ece");
+    formData.append("access_key", "341adc58-e043-4650-94a4-0815f329135b");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
