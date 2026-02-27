@@ -4,14 +4,14 @@ import { RoughNotation } from "react-rough-notation";
 
 export default function Home() {
   return (
-    <div className="relative">
-      <div className="fixed  left-[50%] -translate-x-1/2 bottom-4 bg-black p-[2px] rounded-full">
-        <button className="bg-red-400 px-4 py-2 rounded-full">
+    <div className=" relative ">
+      <div className=" book-demo-button md:hidden  fixed  left-[50%] -translate-x-1/2 bottom-4 p-[4px] rounded-full">
+        <button className=" bg-radial from-yellow-400 to-red-500 text-white  px-4 py-2 rounded-full cursor-pointer">
           Book a Demo
         </button>
       </div>
       <section className=" md:tracking-wider  md:leading-2 bg-indigo-100 ">
-        <div className="  py-24 md:py-64   flex flex-col justify-center items-center text-center px-12 md:px-24">
+        <div className=" py-24 md:py-64   flex flex-col justify-center items-center text-center px-12 md:px-24">
           <h2 className=" text-3xl md:text-6xl font-bold font-display tracking-tight bg-red-400 bg-clip-text">
             Smarter Learning, Happier Kids.
           </h2>
