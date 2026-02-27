@@ -1,4 +1,4 @@
-import BookDemoForm from "@/components/BookDemoForm";
+//import BookDemoForm from "@/components/BookDemoForm";
 import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 
@@ -118,9 +118,7 @@ export default function Home() {
         </div>
         <div></div>
       </section>
-      <section>
-        <BookDemoForm />
-      </section>
+      <section>{/*<BookDemoForm /> */}</section>
     </div>
   );
 }
