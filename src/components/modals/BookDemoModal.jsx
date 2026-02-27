@@ -36,7 +36,7 @@ export default function BookDemoModal({ isOpen, onClose }) {
         <div className="bg-white rounded-lg max-w-md w-full max-h-[90vh] flex flex-col shadow-2xl">
           {/* Header */}
           <div className="flex items-center justify-between p-6 border-b">
-            <h2 className="text-xl font-bold">Book Your Demo</h2>
+            <h2 className="text-xl font-bold">Get Your Free Class Now</h2>
             <button
               onClick={onClose}
               className="text-gray-500 hover:text-gray-700 text-2xl"
