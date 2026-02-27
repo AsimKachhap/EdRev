@@ -1,12 +1,18 @@
-//import BookDemoForm from "@/components/BookDemoForm";
+"use client";
 import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
+import BookDemoModal from "@/components/modals/BookDemoModal";
+import { useState } from "react";
 
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className=" relative ">
-      <div className=" book-demo-button md:hidden  fixed  left-[50%] -translate-x-1/2 bottom-4 p-[4px] rounded-full">
-        <button className=" bg-radial from-yellow-400 to-red-500 text-white  px-4 py-2 rounded-full cursor-pointer">
+      <div className=" book-demo-button   fixed  left-[50%] -translate-x-1/2 bottom-4 p-[4px] rounded-full">
+        <button
+          onClick={() => setIsModalOpen(true)}
+          className=" bg-radial from-yellow-400 to-red-500 text-white  px-4 py-2 rounded-full cursor-pointer "
+        >
           Book a Demo
         </button>
       </div>
@@ -118,7 +124,12 @@ export default function Home() {
         </div>
         <div></div>
       </section>
-      <section>{/*<BookDemoForm /> */}</section>
+      <section>
+        <BookDemoModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
+      </section>
     </div>
   );
 }
