@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 import BookDemoModal from "@/components/modals/BookDemoModal";
+import { TEACHERS } from "@/data/teachersData";
+import TeacherCard from "@/components/TeacherCard";
 import { useState } from "react";
 
 export default function Home() {
@@ -123,6 +125,13 @@ export default function Home() {
           </div>
         </div>
         <div></div>
+      </section>
+      <section className="Teachers_Card bg-white">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
+          {TEACHERS.map((teacher) => {
+            return <TeacherCard teacher={teacher} key={teacher.name} />;
+          })}
+        </div>
       </section>
       <section>
         <BookDemoModal
