@@ -18,7 +18,7 @@ export default function Home() {
           Book a Demo
         </button>
       </div>
-      <section className=" md:tracking-wider  md:leading-2 bg-indigo-100 ">
+      <section className=" hero-section md:tracking-wider  md:leading-2 bg-indigo-100 ">
         <div className=" py-24 md:py-64   flex flex-col justify-center items-center text-center px-12 md:px-24">
           <h2 className=" text-3xl md:text-6xl font-bold font-display tracking-tight bg-red-400 bg-clip-text">
             Smarter Learning, Happier Kids.

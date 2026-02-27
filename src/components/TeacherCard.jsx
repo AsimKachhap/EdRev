@@ -3,7 +3,7 @@ import React from "react";
 const TeacherCard = ({ teacher }) => {
   return (
     <div className="border rounded-md border-slate-400 bg-indigo-400/20   flex  gap-4 items-start">
-      <div className="flex-1/3 ">
+      <div className="md:flex-1/3  h-full">
         <div className="h-full  ">
           <img
             className=" rounded-l-md"
@@ -12,10 +12,10 @@ const TeacherCard = ({ teacher }) => {
           />
         </div>
       </div>
-      <div className=" flex-2/3 flex flex-col items-center px-8 ">
+      <div className=" md:flex-2/3 flex flex-col items-center px-8 ">
         <div>
           <div className="flex flex-col items-center border-b border-gray-600 py-2">
-            <h3 className="px-2 md:p-2   w-full text-center text-2xl md:text-semibold uppercase">
+            <h3 className="px-2 md:p-2   w-full text-center md:text-2xl md:text-semibold uppercase">
               {teacher.name}
             </h3>
 

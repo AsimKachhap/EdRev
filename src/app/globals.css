@@ -20,6 +20,13 @@
   --font-display: "Manrope", sans-serif;
   --color-background: oklch(96.2% 0.018 272.314);
 }
+
+.hero-section {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#444cf7 2px, #ffffff 2px);
+  background-size: 50px 50px;
+}
 /* * {
   padding: 0;
   border: 0;
