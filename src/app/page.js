@@ -13,7 +13,7 @@ export default function Home() {
       <div className=" book-demo-button   fixed  left-[50%] -translate-x-1/2 bottom-4 p-[4px] rounded-full">
         <button
           onClick={() => setIsModalOpen(true)}
-          className=" bg-linear-to-r from-blue-400 via-teal-500 to-emerald-400 text-white  px-8 py-3 font-medium rounded-full cursor-pointer "
+          className="z-40 bg-linear-to-r from-blue-400 via-teal-500 to-emerald-400 text-white  px-8 py-3 font-medium rounded-full cursor-pointer "
         >
           Book a Demo
         </button>
